@@ -1,14 +1,16 @@
-
 using DataAccessLayer.EntityMappers;
 using DataAccessLayer.Models;
 using DataAccessLayer.SeedData;
 using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.Text;
 
 namespace DataAccessLayer.ApplicationDbContext
 {
-    public partial class DataAccesDbContext : DbContext
+    public partial class CFCDbContext : DbContext
     {
-        public DataAccesDbContext(DbContextOptions options) : base(options)
+        public CFCDbContext(DbContextOptions options) : base(options)
         {
 
         }
